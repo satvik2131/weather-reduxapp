@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌦️ Weather Redux App
 
-## Getting Started
+Welcome to the Weather Redux App! This project is a simple yet powerful weather application built with React and Redux. It allows users to get real-time weather updates for any location in the world. The application leverages the OpenWeather API to fetch and display weather data.
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 🔍 **Search by City**: Enter the name of any city to get the current weather information.
+- ⏱️ **Real-time Weather Data**: Get up-to-date weather information including temperature, humidity, wind speed, and more.
+- ⚛️ **Redux for State Management**: Efficient state management with Redux for a seamless user experience.
+- 📱 **Responsive Design**: Fully responsive design that works on desktops and tablets.
+- ⌛ **Loading State**: Displays a loading indicator while fetching weather data.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **React**: A JavaScript library for building user interfaces.
+- **Redux**: A predictable state container for JavaScript apps.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **OpenWeather API**: An API providing weather data for any location in the world.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## 🚀 Getting Started
 
-To learn more about Next.js, take a look at the following resources:
+To get a local copy up and running, follow these simple steps.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Prerequisites
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Make sure you have the following installed on your system:
 
-## Deploy on Vercel
+- Node.js
+- npm (Node Package Manager)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Installation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. **Clone the repo**:
+
+   ```sh
+   git clone https://github.com/satvik2131/weather-reduxapp.git
+
+2. **📂 Navigate to the project directory:** <br/>
+   ```cd weather-reduxapp```
+
+3. **📦 Install dependencies:** <br/>
+   ```npm install```
+   
+4. **🔑 Create a .env file in the root directory and add your OpenWeather API key:** <br/>
+   ```REACT_APP_OPENWEATHER_API_KEY=your_api_key_here```
+   
+6. **🚀 Start the development server:**<br/>
+    ```npm run dev```<br/>
+   *The app should now be running on http://localhost:3000.*
+
+
+
+
+
