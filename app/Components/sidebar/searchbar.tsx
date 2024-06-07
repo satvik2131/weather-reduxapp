@@ -67,6 +67,7 @@ const LocationListCard = ({
     >
       {locationsList.map((location) => (
         <li
+          key={location.name + location.latitude}
           className="mt-2 hover:bg-slate-300 px-4 py-1 cursor-pointer"
           onClick={(e) => {
             dispatch(

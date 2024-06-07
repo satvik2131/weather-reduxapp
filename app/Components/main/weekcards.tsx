@@ -6,7 +6,7 @@ const WeekCards = () => {
   return (
     <div className="flex flex-wrap flex-row">
       {week.map((day, index) => (
-        <div className="w-full sm:w-28 md:w-32 lg:w-40 h-auto ">
+        <div className="w-full sm:w-28 md:w-32 lg:w-40 h-auto" key={index}>
           <WeekCard day={day} index={index} />
         </div>
       ))}

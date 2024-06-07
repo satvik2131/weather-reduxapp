@@ -17,7 +17,9 @@ const TodayHighlights = () => {
 
   return (
     <div>
-      <p className="text-2xl font-extrabold font-medium ">Today's Highlights</p>
+      <p className="text-2xl font-extrabold font-medium">
+        Today&apos;s Highlights
+      </p>
       <div className="grid sm:grid-rows-5 md:grid-rows-4 lg:grid-rows-3 xl:grid-rows-2  grid-flow-col gap-5 pt-7">
         <SeaLevel weatherData={weather} />
         <Humidity weatherData={weather} />
